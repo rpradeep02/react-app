@@ -67,24 +67,37 @@
 // }
 // export default App;
 
-import ExpandableText from "./components/ExpandableText";
+//.............expandable text.............
+
+// import ExpandableText from "./components/ExpandableText";
+
+// function App() {
+//   return (
+//     <div>
+//       <ExpandableText>
+//         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quia eius
+//         doloribus nisi sit aliquam quis officiis qui, numquam dicta tempora hic.
+//         Tempora rem, incidunt beatae optio quis officiis vitae numquam autem
+//         maiores harum quasi repellendus voluptas, possimus cupiditate nesciunt
+//         voluptatibus at dolorem nihil, nemo vel odio placeat aliquam!
+//         Voluptates, doloremque. Quod incidunt consequuntur aliquam delectus
+//         saepe, debitis laborum, dignissimos aliquid earum, ipsum error labore.
+//         Totam sed ad incidunt laborum iusto voluptates enim ipsum cupiditate
+//         illo, dolorem, dolore consectetur repudiandae eaque sit, possimus veniam
+//         tempora optio quisquam voluptatem amet. Blanditiis ipsum nulla nisi
+//         libero? Corporis modi dolore assumenda officia debitis.
+//       </ExpandableText>
+//     </div>
+//   );
+// }
+// export default App;
+
+import Form from "./components/Form";
 
 function App() {
   return (
     <div>
-      <ExpandableText>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quia eius
-        doloribus nisi sit aliquam quis officiis qui, numquam dicta tempora hic.
-        Tempora rem, incidunt beatae optio quis officiis vitae numquam autem
-        maiores harum quasi repellendus voluptas, possimus cupiditate nesciunt
-        voluptatibus at dolorem nihil, nemo vel odio placeat aliquam!
-        Voluptates, doloremque. Quod incidunt consequuntur aliquam delectus
-        saepe, debitis laborum, dignissimos aliquid earum, ipsum error labore.
-        Totam sed ad incidunt laborum iusto voluptates enim ipsum cupiditate
-        illo, dolorem, dolore consectetur repudiandae eaque sit, possimus veniam
-        tempora optio quisquam voluptatem amet. Blanditiis ipsum nulla nisi
-        libero? Corporis modi dolore assumenda officia debitis.
-      </ExpandableText>
+      <Form></Form>
     </div>
   );
 }
